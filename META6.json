@@ -1,0 +1,23 @@
+{
+  "meta-version": "0",
+  "name": "Env",
+  "version": "0.0.0",
+  "auth": "github:littlebenlittle",
+  "description": "spawn processes into environments",
+  "source-url": "https://github.com/littlebenlittle/raku-proc-env",
+  "perl": "6.d",
+  "author": "Ben Little <ben.little@fruition.net>",
+  "tags": [
+    "proc",
+    "env",
+    "process",
+    "environment"
+  ],
+  "license": "Artistic-2.0",
+  "depends": [
+      "Mkdir::Recursive"
+  ],
+  "provides": {
+    "Proc::Env": "lib/Proc/Env.rakumod"
+  }
+}
